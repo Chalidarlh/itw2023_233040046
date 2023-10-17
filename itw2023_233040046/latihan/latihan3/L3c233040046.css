@@ -13,10 +13,17 @@ h4{
 }
 .a2{
 text-decoration: none;
+color: blue;
+}
+.a2:hover{
+    background-color: blue;
+    color: aliceblue;
 }
 .a1{
     color:antiquewhite;
-    
+}
+.a1:hover {
+    color: red;
 }
 .paragraf1{
     color:coral;
