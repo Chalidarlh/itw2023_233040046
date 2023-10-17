@@ -1,0 +1,18 @@
+div{}
+
+.body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading1{
+    font-size: 60px;
+    color: darkblue;
+    font-family: comic sans ms
+}
+.heading4{
+    text-align: right;
+    font-style: italic;
+}
+.paragraf{
+    text-align: justify;
+}
