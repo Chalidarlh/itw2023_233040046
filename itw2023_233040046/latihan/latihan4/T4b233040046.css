@@ -1,0 +1,89 @@
+body{
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote,q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*style*/
+
+body{
+    font: 16px/28px cambria;
+    background-color: rgb(158, 117, 70);
+    color: #000000;
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #f7eacb;
+}
+.header {
+    padding: 5px;
+    padding-bottom: 5px;
+}
+ .judul {
+    font-size: 45px;
+    font-weight: bold;
+ }
+ .header ul li {
+    display: inline-block;
+    margin-right: 8px;
+ }
+ .header a {
+    text-decoration: none;
+    color: brown;
+    padding: 3px;
+ }
+ .header a:hover{
+   background-color: salmon; 
+   color: white;
+ }
+ .hero{
+    height: 280px;
+    background-image: url(../latihan3/img/study.jpg);
+    background-size: cover;
+    background-position: 0 -140px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white; 
+ }
+ .content{
+    padding: 25px;
+ }
+ .content h2 {
+    font-size: 29px;
+    font-weight: bold;
+ }
+ .content .penulis {
+    font-size: 14px;
+    margin-top: -10px;
+ }
+ .content .penulis a {
+    color: salmon;
+    text-decoration: none;
+ }
+ .content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+ }
+
+ .footer {
+    background-color: #333;
+    padding: 10px;
+ }
+ .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 13px;
+ }
