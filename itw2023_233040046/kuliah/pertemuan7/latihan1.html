@@ -11,17 +11,20 @@
             margin: 50px auto;
         }
         .kotak1{
-            width: 150px;
-            height: 150px;
-            margin: 50px auto;
             position: relative;
             background-color: black;
             border-radius: 50% 50% 50% 0;
         }
         .kotak2{
             background-color: brown;
-            box-shadow: <x-offset> <y-offset> <blur> [size] <color>;
-            box-shadow: 5px 5px 5px black, -5px -5px -5px green;
+            /* box-shadow: <x-offset> <y-offset> <blur> [size] <color>; */
+            box-shadow: 0 0 0 10px black, 0 0 0 20px yellow, 0 0 0 30px green, 0 0 0 40px blue, 0 0 0 50px navy;
+            transition: 3s;
+        }
+        .kotak2:hover {
+            border-radius: 50%;
+            background-color: aquamarine;
+            transform: rotate(360deg)  scale(0.4);
         }
     </style>
 </head>
